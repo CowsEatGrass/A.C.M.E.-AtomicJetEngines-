@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# A.C.M.E.-AtomicJetEngines-
 
-You can use the [editor on GitHub](https://github.com/CowsEatGrass/A.C.M.E.-AtomicJetEngines-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Eludium Q-36 Plasma Chromatography Interpreter
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**__Purpose__** 
 
-### Markdown
+	This is a fun project intended to explore different Discrete & Multi-Platform coding mediums:
+	1) Windows CMD Line / PowerShell / Linux Bash
+	2) C# .NET / C# Core 
+	3) Julia / Python 
+	4) C / Pascal / Fortran
+	5) Kotlin / Lua / Ruby
+	6) LabView 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**__Story__** 
 
-```markdown
-Syntax highlighted code block
+	A.C.M.E. Research & Development (on Mars) is testing Eludium Q-36 as a fuel for their Atomic Jet Engines.
+	A.C.M.E. Simulation & Safety (on Earth) runs some of this testing remotely.
 
-# Header 1
-## Header 2
-### Header 3
+**__Problem One__** 
 
-- Bulleted
-- List
+	The A.C.M.E. Plasma Chromatograph on Mars outputs the Measurement Sample Locations as strings.
+	However, the A.C.M.E. Simulation In Loop software is not capable of ingesting Data Strings.
 
-1. Numbered
-2. List
+**__Problem Two__** 
 
-**Bold** and _Italic_ and `Code` text
+	The A.C.M.E. Plasma Chromatograph on Mars runs on Local Solar Time (LST) on Mars.
+	However, the A.C.M.E. Simulation in Loop software runs on Universal Standard Time (UST) on Earth.
 
-[Link](url) and ![Image](src)
-```
+**__Goal__** 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	Write a simple Measurement Interpreter to convert the A.C.M.E. Plasma Chromatograph's CSV output file
+	"MarsDataRaw.csv" to an INI file "EarthDataRaw.ini" for ingestion into the A.C.M.E Simulation & Loop software.
+ 
+**__Example CSV__** 
 
-### Jekyll Themes
+	SampleName,"Atomic Jet Engine"
+	MethodName,"Chromatograph_Q-36"
+	UserName,"Marvin T. Martian"
+	Comments,"TurbineHP" **OR** "TurbineLP" **OR** "Nozzle"
+	LocalSolarTime,"75/123 12:34:56"
+	SettingsFile,"Eludium Q-36.cnfg"
+	Instrument,"123456789"
+	RawTotalMolePct,1.4119
+	==========,==========,==========,==========,==========,==========
+	Number,Component,Ret.Time,Peak Area,Normalized%
+	1,"Eludium Q-36",38.8000,80795.3700,100.0000
+	==========,==========,==========,==========,==========,==========
+	Year,SolarLongitude,Hour,Minute,Second
+	"75","123","12","34","56"  
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CowsEatGrass/A.C.M.E.-AtomicJetEngines-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**__Technical References__** 
 
-### Support or Contact
+[Planetary.org Mars Calendar](https://www.planetary.org/articles/mars-calendar)
+[Wikipedia Martian Calendars](https://en.wikipedia.org/wiki/Timekeeping_on_Mars#Martian_calendars)
+[Wikipedia Universal Time](https://en.wikipedia.org/wiki/Universal_Time)
+[Wikipedia Besselian Year](https://en.wikipedia.org/wiki/Year#Besselian_year)
+[Wikipedia Julian Day](https://en.wikipedia.org/wiki/Julian_day)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Contributors:** 
+
+	Philip D. Stubbs, Test Engineer & Software Support Lead
+	Marvin T. Martian, Chief Engineer & Technical Design Lead
+	Wylie E. Coyote, Safety Engineer & Simulation Analyst  
+
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
