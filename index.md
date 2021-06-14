@@ -58,6 +58,8 @@ This is a fun project intended to explore different Discrete & Multi-Platform co
  - [Wikipedia Julian Day](https://en.wikipedia.org/wiki/Julian_day)
 
 **Contributors:** 
+Philip D. Stubbs, Test Systems Engineer & Support Lead
+Marvin T. Martian, Chief Engineer & Technical Lead
 Wylie E. Coyote, Safety Engineer & Simulation Analyst  
 
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
