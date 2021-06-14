@@ -5,12 +5,12 @@
 **__Purpose__** 
 
 >  This is a fun project intended to explore different Discrete & Multi-Platform coding mediums:
->  1) Windows CMD Line / PowerShell / Linux Bash
->  2) C# .NET / C# Core 
->  3) Julia / Python 
->  4) C / Pascal / Fortran
->  5) Kotlin / Lua / Ruby
->  6) LabView 
+  1) Windows CMD Line / PowerShell / Linux Bash
+  2) C# .NET / C# Core 
+  3) Julia / Python 
+  4) C / Pascal / Fortran
+  5) Kotlin / Lua / Ruby
+  6) LabView 
 
 **__Story__** 
 
