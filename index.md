@@ -4,17 +4,17 @@
 
 **__Purpose__** 
 
->  This is a fun project intended to explore different Discrete & Multi-Platform coding mediums:
-  1) Windows CMD Line / PowerShell / Linux Bash
-  2) C# .NET / C# Core 
-  3) Julia / Python 
-  4) C / Pascal / Fortran
-  5) Kotlin / Lua / Ruby
-  6) LabView 
+This is a fun project intended to explore different Discrete & Multi-Platform coding mediums:
+  1. Windows CMD Line / PowerShell / Linux Bash
+  2. C# .NET / C# Core 
+  3. Julia / Python 
+  4. C / Pascal / Fortran
+  5. Kotlin / Lua / Ruby
+  6. LabView 
 
 **__Story__** 
 
->  A.C.M.E. Research & Development (on Mars) is testing Eludium Q-36 as a fuel for their Atomic Jet Engines.
+>  A.C.M.E. Research & Development (on Mars) is testing Eludium Q-36 as a fuel for their Atomic Jet Engines.  
 >  A.C.M.E. Simulation & Safety (on Earth) runs some of this testing remotely.
 
 **__Problem One__** 
@@ -29,7 +29,8 @@
 
 **__Goal__** 
  
->  Write a simple Measurement Interpreter to convert the A.C.M.E. Plasma Chromatograph's CSV output file "MarsDataRaw.csv" to an INI file "EarthDataRaw.ini" for ingestion into the A.C.M.E Simulation & Loop software.
+>  Write a simple Measurement Interpreter to convert the A.C.M.E. Plasma Chromatograph's CSV output file 
+>  "MarsDataRaw.csv" to an INI file "EarthDataRaw.ini" for ingestion into the A.C.M.E Simulation & Loop software.
  
 **__Example CSV__** 
 
@@ -50,16 +51,13 @@
 
 **__Technical References__** 
 
-[Planetary.org Mars Calendar](https://www.planetary.org/articles/mars-calendar)
-[Wikipedia Martian Calendars](https://en.wikipedia.org/wiki/Timekeeping_on_Mars#Martian_calendars)
-[Wikipedia Universal Time](https://en.wikipedia.org/wiki/Universal_Time)
-[Wikipedia Besselian Year](https://en.wikipedia.org/wiki/Year#Besselian_year)
-[Wikipedia Julian Day](https://en.wikipedia.org/wiki/Julian_day)
+ - [Planetary.org Mars Calendar](https://www.planetary.org/articles/mars-calendar)
+ - [Wikipedia Martian Calendars](https://en.wikipedia.org/wiki/Timekeeping_on_Mars#Martian_calendars)
+ - [Wikipedia Universal Time](https://en.wikipedia.org/wiki/Universal_Time)
+ - [Wikipedia Besselian Year](https://en.wikipedia.org/wiki/Year#Besselian_year)
+ - [Wikipedia Julian Day](https://en.wikipedia.org/wiki/Julian_day)
 
 **Contributors:** 
-
->  Philip D. Stubbs, Test Engineer & Software Support Lead
->  Marvin T. Martian, Chief Engineer & Technical Design Lead
->  Wylie E. Coyote, Safety Engineer & Simulation Analyst  
+Wylie E. Coyote, Safety Engineer & Simulation Analyst  
 
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
