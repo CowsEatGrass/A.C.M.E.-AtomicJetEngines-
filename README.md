@@ -24,12 +24,12 @@
 **__Problem Two__** 
 
 	The A.C.M.E. Plasma Chromatograph on Mars runs on Local Solar Time (LST) on Mars.
-	However, the A.C.M.E. Simulation in Loop software runs on Universal Standard Time (UST) on Earth.
+	However, A.C.M.E. Simulation in Loop software runs on Universal Standard Time (UST) on Earth.
 
 **__Goal__** 
 
 	Write a simple Measurement Interpreter to convert the A.C.M.E. Plasma Chromatograph's CSV output file
-	"MarsDataRaw.csv" to an INI file "EarthDataRaw.ini" for ingestion into the A.C.M.E Simulation & Loop software.
+	"MarsDataRaw.csv" to an INI file "EarthDataRaw.ini" for ingestion into A.C.M.E Simulation & Loop software.
  
 **__Example CSV__** 
 
